@@ -156,6 +156,16 @@
     &copy; 2025 Stasiun Bojong | Departemen K3
   </div>
 </div>
+<!-- Hidden form untuk Netlify agar bisa mengenali struktur form -->
+<form name="persetujuan" netlify netlify-honeypot="bot-field" hidden>
+  <input type="text" name="nama">
+  <input type="text" name="nipp">
+  <input type="tel" name="nohp">
+  <input type="text" name="instansi">
+  <input type="date" name="tanggal">
+  <input type="file" name="ttd">
+  <input type="checkbox" name="setuju">
+</form>
 
 </body>
 </html>
